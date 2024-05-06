@@ -1,0 +1,75 @@
+body { 
+    background: url(./Momo/img/image\ header\ blog.png) center; min-height: 100vh;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 6px 0px 8px #3700ff;
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline overline #ffffff;
+    font-family: "Sedan SC", serif;
+}
+h2{
+    text-decoration: underline #000000;
+    font-size: 2.5rem;
+}
+ul {
+    font-size: 1.5rem;
+}
+main {
+    min-height: 500px;
+    width: 90%;
+    background: hsla(0, 0%, 100%, 0.597);
+    margin: 0 auto;
+    border: 2px solid hwb(253 0% 22%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 6px #ffffff
+}
+main {
+    padding: 15px;
+}
+h2 {
+    margin: 0;
+}
+.flexbox, .grid, .absolute 
+{
+    border: 2px solid rgb(98, 132, 234);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    min-height: 150px;
+}
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox li {
+    list-style: none;
+    height: 100px;
+    width: 160px;
+    margin: 10px;
+    background: #9f9ab8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.grid img {
+    width: 30%;
+    margin: 20px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
